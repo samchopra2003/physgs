@@ -1,1 +1,1 @@
-# physgs.github.io
+# https://samchopra2003.github.io/physgs/
