@@ -138,6 +138,31 @@ body {
   text-align: justify;
 }
 
+.result-figure {
+  margin: 3.5rem auto 0;
+}
+
+.results-section .result-figure:first-child {
+  margin-top: 0;
+}
+
+.result-image {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.result-caption {
+  max-width: 850px;
+  margin: 2rem auto 0;
+  color: #4a4a4a;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  text-align: justify;
+}
+
 .publication-body img {
 }
 
