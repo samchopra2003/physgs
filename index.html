@@ -112,11 +112,15 @@
             </div>
 
             <div class="publication-media">
-              <img class="overview-image"
-                   src="./static/images/overview_enhanced.png"
-                   alt="PhysGS overview"
-                   style="width: 500px; display: block; margin: 0 auto;"
-              />
+              <figure class="overview-figure">
+                <img class="overview-image"
+                     src="./static/images/overview_enhanced.png"
+                     alt="PhysGS overview"
+                />
+                <figcaption class="overview-caption">
+                  Top: Our method estimates per-point and dense physical properties (e.g., friction, hardness, density, stiffness, and mass) by combining vision-language material priors with Bayesian updates over 3D Gaussian splats. Bottom: PhysGS can also be deployed in outdoor environments to infer scene-level properties such as friction and predictive uncertainty; we visualize the total uncertainty (aleatoric + epistemic).
+                </figcaption>
+              </figure>
 
               <div class="publication-video">
                 <iframe
