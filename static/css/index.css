@@ -146,6 +146,10 @@ body {
   margin-top: 2rem;
 }
 
+.architecture-section .result-figure {
+  margin-top: 0;
+}
+
 .result-image {
   display: block;
   width: 100%;
